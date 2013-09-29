@@ -20,7 +20,7 @@ For your issue to be considered and solved ASAP please provide the following inf
 * A description of the issue you have, if it is a MITM feature not working, please specify if the other MITM features are working on your network.
 * [A logcat](http://forum.xda-developers.com/showthread.php?t=1726238) taken while the application was running and the issue happened. 
 
-**Any issue which will not contains those details, will be signaled with a link to this page and closed from 24h to 48h later.**
+**Any issue which will not contain those details, will be signaled with a link to this page and closed from 24h to 48h later.**
 
 ## Contribute to the Code
 
