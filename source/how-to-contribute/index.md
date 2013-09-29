@@ -7,6 +7,23 @@ slug: how-to-contribute
 title: How to Contribute
 ---
 
+## How to Open an Issue
+
+If you find a bug, weird behaviour, missing translation, a feature not working or anything strange in the application
+you are encouraged to open an issue on the appropriate [github page](https://github.com/evilsocket/dsploit/issues).  
+For your issue to be considered and solved ASAP please provide the following informations while opening it:
+
+* Your Device model.
+* Your ROM name and version.
+* The version of dSploit your are running.
+* As many details as possible on the network you are running dSploit on.
+* A description of the issue you have, if it is a MITM feature not working, please specify if the other MITM features are working on your network.
+* [A logcat](http://forum.xda-developers.com/showthread.php?t=1726238) taken while the application was running and the issue happened. 
+
+**Any issue which will not contains those details, will be signaled with a link to this page and closed from 24h to 48h later.**
+
+## Contribute to the Code
+
 If you are an Android/Java developer and you want to contribute to the project, you are very welcome!  
 Setting up the environment and building an apk is quite simple, just refer to the following procedure.
 
