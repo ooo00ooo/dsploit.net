@@ -21,6 +21,10 @@ I'm a sr. developer and security consultant from Italy, specialized in Unix deri
   * [Personal Website](http://pimpmyrom.org/)
   * [GitHub Profile](https://github.com/Androguide)
 
+#### Massimo Dragano ( tux-mind ) developer.
+
+  * [GitHub Profile](https://github.com/tux-mind)
+
 #### Mohammed Alokaily ( m0hmd88 ) graphic designer, web designer.
 	
   * [Google+ Profile](https://plus.google.com/110512888654148706592)
