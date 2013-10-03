@@ -69,3 +69,21 @@ dl.gallery-item {
 	text-decoration: none;
 }
 
+#supportus {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+	-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+	background: #fff;
+	text-transform: uppercase;
+	padding: 15px;
+
+	h2 {
+		border-bottom: 1px solid #e7e7e7;
+		font-weight: 500;
+	}
+}
