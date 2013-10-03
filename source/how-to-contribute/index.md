@@ -115,4 +115,10 @@ The signed apk will be in build/apk.
 
 For Android Studio, select Import Project, navigate to the repo and select build.gradle (instead of choosing the whole folder like in Eclipse)
 It should import everything properly as long as you have the build-tools and support repository installed from the SDK manager.  
-Once the project is imported you can use the Build/Generate Signed APK menu entry.
+Once the project is imported you can use the Build/Generate Signed APK menu entry. 
+
+Here's a video of me building it under Windows.
+
+<center>
+    <iframe width="100%" height="600" src="//www.youtube.com/embed/Ow_R5HDYdwE" frameborder="0" allowfullscreen></iframe>
+</center>
