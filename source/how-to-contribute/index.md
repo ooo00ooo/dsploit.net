@@ -122,3 +122,47 @@ Here's a video of me building it under Windows.
 <center>
     <iframe width="100%" height="600" src="//www.youtube.com/embed/Ow_R5HDYdwE" frameborder="0" allowfullscreen></iframe>
 </center>
+
+## How to translate.
+
+Want to add a new language to dSploit or update already existing? 
+
+Android resource files use the UTF-8 character set, so you have to use UTF-8 compatible text editor. [Notepad++] (http://notepad-plus-plus.org/) supports UTF-8, works on Windows
+and is free. However, if you are modifying existing translation, you can just use github build-in editor. 
+
+*You can use XML Syntax-Checker to check your modified XML for syntax errors. (http://www.w3schools.com/xml/xml_validator.asp)
+
+#### Improving existing translation.
+
+Open the translation file you want to modify (https://github.com/evilsocket/dsploit/blob/master/dSploit/res/values-XX/strings.xml) where the XX is the
+short code for language. For example: Finnish is fi, Spanish is es and German is de.
+
+Then press "Edit" button top of the translation file. Github should now open the file for editing, and you can make the changes you want.
+If you need to add new lines that do not exists yet, copy them from English values.xml (https://github.com/evilsocket/dsploit/blob/master/dSploit/res/values/strings.xml) and
+paste them inside the file you are translating and then translate them.
+
+When you are done, scroll to the end of the page and write a small summary what you just did to the "commit summary". If you WANT to be more detailed
+about what you just did, use the "Extended description". Using "Extended description" is not required. Then just press "Propose File Change".
+You will now be directed to comparison page.  If you filled the 2 boxes earlier, you can just press "Send pull request".
+
+Pull request will be sent to main repository, where it may/may not be accepted to dSploit.
+
+#### Adding a new language.
+
+Requirements:
+*git installed (http://git-scm.com/)
+*some git knowledge (http://rogerdudler.github.io/git-guide/)
+*time.
+
+First, fork dSploit repository to your account. You can do that by pressing "Fork" on top right corner of https://github.com/evilsocket/dsploit
+Then clone the forked repository to your PC with: "git clone https://github.com/username/dsploit.git". Replace username with your username.
+Now create new new folder for your translation to dsploit/dSploit/res/ called values-XX. Replace the XX with your locale code. Then paste strings.xml from values folder
+to the new folder you created.
+
+Now open the strings.xml you copied to your new values-XX folder and start translating it your language. You can use any text editor,
+as long as it saves to UTF-8 character set.
+
+After translating, use git to add the new files and folders. Use "git add *" to do that. Now you can commit the changes with "git commit".
+you can see how to use git commit from the link above. Use "git push" to push the changes to your repository.
+
+Now just create pull request to evilsocket/dsploit. To create pull request in Github, you can see this page: https://help.github.com/articles/creating-a-pull-request
